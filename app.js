@@ -10,5 +10,5 @@ app.use(express.static(__dirname + '/dist'));
 
 const port = process.env.PORT || 4200;
 app.listen(port, function () {
-  console.log("Nhs app is running at port " + port);
+  console.log("doctor app is running at port " + port);
 });
