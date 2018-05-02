@@ -57,7 +57,7 @@ export class AuthService {
 
 
   facebookLogin() {
-    const provider = new firebase.auth.TwitterAuthProvider_Instance();
+    const provider = new firebase.auth.TwitterAuthProvider();
     this.afAuth.auth.signInWithPopup(provider)
     // return this.socialSignIn(provider);
   }
